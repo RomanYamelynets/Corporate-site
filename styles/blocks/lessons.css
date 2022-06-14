@@ -1,0 +1,57 @@
+.content_lessons {
+    width: 1366px;
+    height: 742px;
+    margin: 32px 37px 51px;
+    background-color: #EAEBED;
+    border-radius: 30px;
+    padding-top: 138px;
+    padding-left: 257px;
+}
+
+table {
+    width: 852px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    font-size: 24px;
+    padding: 10px;
+}
+
+td {
+    font-size: 24px;
+    padding: 20px;
+}
+
+#radius {
+    border-radius: 21px 0 0 21px;
+}
+
+#radius2 {
+    border-radius: 0 21px 21px 0;
+}
+
+#color_active {
+    transition-duration: 0.7s;
+    transition-property: background-color;
+}
+
+#color_active:hover {
+    background-color: #FFFFFF;
+}
+
+.img_downloud {
+    transition-duration: 0.7s;
+    transition-property: background-color;
+}
+
+#img_downloud:hover {
+    background-color: #2785F7;
+    border-radius: 5px;
+}
+
+input {
+    width: 26px;
+    height: 26px;
+}

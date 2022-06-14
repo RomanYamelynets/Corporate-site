@@ -1,0 +1,6 @@
+@import url(reset.css);
+@import url(font.css);
+@import url("blocks/main.css");
+@import url("blocks/team.css");
+@import url("blocks/lessons.css");
+@import url("blocks/account.css");

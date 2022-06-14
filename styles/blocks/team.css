@@ -1,0 +1,54 @@
+.content_team {
+    width: 1366px;
+    height: 742px;
+    margin: 32px 37px 51px;
+    background-color: #EAEBED;
+    border-radius: 30px;
+    padding-top: 56px;
+    padding-left: 34px;
+    padding-right: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block_team {
+    width: 292px;
+    height: 325px;
+    background: #FFFFFF;
+    border-radius: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition-duration: 0.7s;
+    transition-property: background-color;
+    position: relative;
+}
+
+.block_team:hover::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    background-image: url("../../images/delete.png");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+    top: -38px;
+    right: -25px;
+    visibility: visible;
+}
+
+.block_team:hover {
+    background-color: #2785F7;
+}
+
+.images_team {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}

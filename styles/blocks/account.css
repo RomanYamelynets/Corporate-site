@@ -1,0 +1,173 @@
+.content_ac {
+    width: 1404px;
+    height: 726px;
+    margin: 32px 18px 44px;
+    background-color: #EAEBED;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-left: 158px;
+}
+
+.block_a1 {
+    width: 1203px;
+    height: 679px;
+    display: flex;
+}
+
+.block_a2 {
+    width: 615px;
+    height: 686px;
+    margin-right: 20px;
+}
+
+.block_a2_1 {
+    width: 615px;
+    height: 149px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin-right: 17px;
+    margin-bottom: 20px;
+    padding-top: 39px;
+    padding-left: 42px;
+    display: flex;
+}
+
+.block_a2_2 {
+    width: 615px;
+    height: 517px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    margin-right: 17px;
+    padding-top: 27px;
+    padding-left: 42px;
+    padding-right: 47px;
+}
+
+.block_a3 {
+    width: 588px;
+    height: 679px;
+    background: #FEFEFE;
+    border-radius: 30px;
+    padding-top: 32px;
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.a {
+    width: 65px;
+    height: 65px;
+    background-color: #F24F5E;
+    border-radius: 50%;
+    margin-right: 43px;
+}
+
+.text_a {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Open Sans';
+}
+
+.change_password {
+    width: 524px;
+    height: 102px;
+    display: flex;
+}
+
+.img_password {
+    width: 65px;
+    height: 65px;
+    margin-right: 23px;
+    background-color: #2785F7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_padlock {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="password"] {
+    width: 524px;
+    height: 63px;
+    background: #FEFEFE;
+    border: 2px solid #2785F7;
+    box-sizing: border-box;
+    border-radius: 21px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text_password {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.img_university {
+    width: 40px;
+    height: 40px;
+    fill: white;
+}
+
+input[type="text"] {
+    width: 494px;
+    height: 63px;
+    background: #FEFEFE;
+    border: 2px solid #2785F7;
+    box-sizing: border-box;
+    border-radius: 21px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+input[class="address"] {
+    width: 494px;
+    height: 100px;
+    background: #FEFEFE;
+    border: 2px solid #2785F7;
+    box-sizing: border-box;
+    border-radius: 21px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text_c_s {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 190px;
+}
+
+.country_city {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_s_p {
+    display: flex;
+    justify-content: space-around;
+    justify-content: flex-start;
+    gap: 200px;
+}
+
+.state_code {
+    display: flex;
+}
